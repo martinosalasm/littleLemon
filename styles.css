@@ -1,0 +1,94 @@
+body {
+  background-color: bisque;
+  margin: 3rem 5%;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: rgb(241, 215, 183);
+  margin: 2rem;
+  border-radius: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(27, 43, 29);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+section {
+  display: flex;
+}
+article {
+  flex: 1;
+}
+footer {
+  display: flex;
+}
+footer div {
+  flex: 1;
+  margin-top: 3rem;
+}
+.card {
+  display: flex;
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.9rem;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem;
+  flex-direction: column;
+  align-content: space-evenly;
+
+}
+#cardOne{
+    background-image: url(images/pastaimg.jpeg);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    
+}
+#cover{
+    background-size: auto;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.card  img{
+    width: 90%;
+    height: 60%;
+    align-self: center;
+    padding: 1rem;
+    min-width: 5rem;
+    min-height: 3rem;
+    border-radius: 1.5rem;
+}
+.card {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.07);
+}
+#copyright {
+  border-top-style: solid;
+}
+article {
+  margin: 0.5rem;
+  background-color: rgba(168, 154, 91, 0.055);
+}
+#section2{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer div img, header img{
+    max-height: 10rem;
+    max-width: 20rem;
+}
